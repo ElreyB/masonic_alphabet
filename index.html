@@ -20,16 +20,21 @@
 
 <body>
   <div class="container">
-    <form id="arabic_form">
-      <div class="form-group">
-        <label for="arabic_letters">Enter text:</label>
-        <textarea id="arabic_letters" cols="30" rows="10" class="form-control"></textarea>
+    <div class="row">
+      <div class="col-md">
+        <form id="arabic_form">
+          <div class="form-group">
+            <label for="arabic_letters">Enter text:</label>
+            <textarea id="arabic_letters" cols="10" rows="5" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Transalte</button>
+        </form>
       </div>
-      <button type="submit" class="btn btn-primary">Transalte</button>
-    </form>
+      <div class="col-md">
+        <div class="result jumbotron d-none">
 
-    <div class="result">
-
+        </div>
+      </div>
     </div>
   </div>
 </body>
